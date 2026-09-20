@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "name": "Sidhant",
+    "role": "Undergraduate Intern",
+    "team": "DIX",
+    "company": "Dell Technologies",
+    "startDate": "July 6, 2026",
+    "progressLabel": "2.5 months into my internship",
+    "lastUpdated": "September 19, 2026"
+  },
+  "summary": {
+    "eyebrow": "Internship progress",
+    "atAGlance": "During my first 2.5 months, I have worked across three projects spanning C#/.NET, Angular, Python and CI/CD. My work has included frontend and backend development, testing, production bug fixes, CI/CD activities and early hands-on work with AI-agent workflows.",
+    "assignedItemsLabel": "26 Jira Items",
+    "storyPointsNote": "Story points are currently estimated and can be updated."
+  },
+  "currentFocus": [
+    { "projectId": "service-tag-validator", "title": "Service Tag Validator", "detail": "Development · Bug fixes · Testing", "tags": ["ServiceTag workflows", "Application support"] },
+    { "projectId": "mhub", "title": "mHub", "detail": "CI/CD · Development · Testing", "tags": ["Pipeline work", "Application support"] },
+    { "projectId": "sally", "title": "Sally", "detail": "AI Advisor · FRAT / PAM Agent", "tags": ["Workflow development", "Testing & optimization"] }
+  ],
+  "projects": [
+    {
+      "id": "service-tag-validator",
+      "name": "Service Tag Validator",
+      "accent": "cyan",
+      "status": "Active",
+      "technologies": ["C#", ".NET", "Angular"],
+      "description": "Worked on the Service Tag Validator application across frontend, backend, testing, bug fixing and related development work.",
+      "contributions": ["Lender Management Page", "User Management Page", "Service Tag Deletion Page", "End-to-end ServiceTag deletion API", "ServiceTag backup/history logic", "UAT support, bug fixes and application support"],
+      "currentStatus": "Development, testing and support activity. [Edit with current details]",
+      "keyLearnings": ["Working within an existing C#/.NET and Angular codebase", "Connecting UI workflows to backend and record-history logic"],
+      "artifacts": [],
+      "jiraLinks": [],
+      "mrLinks": [],
+      "notes": "[Add project notes]"
+    },
+    {
+      "id": "mhub",
+      "name": "mHub",
+      "accent": "violet",
+      "status": "Active",
+      "technologies": ["C#", ".NET", "Angular", "CI/CD"],
+      "description": "Worked across development, testing and CI/CD activities within the mHub ecosystem.",
+      "contributions": ["CI/CD pipeline setup and deployment-related activities", "Google UCP backend pipeline work", "ServiceNow-related CI/CD work", "Pipeline issue investigation", "Test cases for Google UCP and existing lenders", "Contributed to test coverage improvements, with coverage reaching approximately 79% from 65%."],
+      "currentStatus": "CI/CD, development, testing and application support. [Edit with current details]",
+      "keyLearnings": ["How CI/CD workflows support delivery", "Testing existing application behavior and code quality"],
+      "artifacts": [],
+      "jiraLinks": [],
+      "mrLinks": [],
+      "notes": "[Add project notes]"
+    },
+    {
+      "id": "sally",
+      "name": "Sally",
+      "accent": "amber",
+      "status": "Active",
+      "technologies": ["Python", "AI Agents", "APIs"],
+      "description": "Working within Sally's Python-based AI-agent workflows.",
+      "contributions": ["AI Advisor response-time experiments using pooling, threading and API optimization", "FRAT / PAM Agent workflow understanding, development, testing, bug fixing and support", "Other Sally workflows as they become known"],
+      "currentStatus": "AI Advisor and FRAT / PAM Agent workflows. [Edit with current details]",
+      "keyLearnings": ["How agent workflows are composed and tested", "Exploring performance considerations in API-driven flows"],
+      "artifacts": [],
+      "jiraLinks": [],
+      "mrLinks": [],
+      "notes": "[Add project notes]",
+      "workstreams": [
+        { "name": "AI Advisor", "description": "Worked on response-time optimization through pooling, threading techniques and API optimization." },
+        { "name": "FRAT / PAM Agent", "description": "Spent time understanding the FRAT/PAM Agent workflow, followed by development, testing, bug fixing and application support." },
+        { "name": "Other Workflows", "description": "[Add other Sally workflow details]" },
+        { "name": "Future / Upcoming", "description": "[Add planned workflow details]" }
+      ]
+    }
+  ],
+  "stories": [
+    { "id": "MHUB-906", "title": "UI: Fix User Role for Tracking", "project": "Service Tag Validator", "type": "Bug / Defect", "status": "Testing", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-906", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-891", "title": "Investigate TeraData Data Issue for Missing ServiceTags", "project": "Service Tag Validator", "type": "Bug / Defect", "status": "Support", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-891", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-886", "title": "MS Activation Validation Removal from Sold & UnSold", "project": "Service Tag Validator", "type": "Development", "status": "Planned", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-886", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-880", "title": "Increase Delete SvcTag to 50K(Test performance), Log Delete Records", "project": "Service Tag Validator", "type": "Development", "status": "In Progress", "storyPoints": 3, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-880", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-870", "title": "ReadMe Doc for all Projects", "project": "mHub", "type": "Development", "status": "Planned", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-870", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-869", "title": "Split ServiceTagValidator from MHUB solution", "project": "Service Tag Validator", "type": "Development", "status": "Completed", "storyPoints": 3, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-869", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-864", "title": "Remove GPG App(Dev, Prod) from Code, CICD Deployment, PCF", "project": "mHub", "type": "CI/CD", "status": "Completed", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-864", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-863", "title": "Splunk Job Failure for Google UCP", "project": "mHub", "type": "CI/CD", "status": "Support", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-863", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-862", "title": "CICD JOB Issue(sast:checkmarx (sast))", "project": "mHub", "type": "CI/CD", "status": "Support", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-862", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-860", "title": "Unit Test - Code Coverage > 80", "project": "mHub", "type": "Testing", "status": "Completed", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-860", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-858", "title": "UAT Test Suport", "project": "Service Tag Validator", "type": "Testing", "status": "Support", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-858", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-849", "title": "CICD: Add Missing JOBS(Service Now)", "project": "mHub", "type": "CI/CD", "status": "In Progress", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-849", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-848", "title": "CICD Setup & Deployment", "project": "mHub", "type": "CI/CD", "status": "Completed", "storyPoints": 3, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-848", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-837", "title": "SvcTagValidator UI: User Management Page", "project": "Service Tag Validator", "type": "Development", "status": "Completed", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-837", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-836", "title": "Delete History Not Working", "project": "Service Tag Validator", "type": "Bug / Defect", "status": "Completed", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-836", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-826", "title": "API & UI: Delete SeviceTag(Input: ServiceTag File, OutPut: Deleted ServicetTags)", "project": "Service Tag Validator", "type": "Development", "status": "Completed", "storyPoints": 3, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-826", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "MHUB-652", "title": "SvcTagValidator UI: Lender Management Page", "project": "Service Tag Validator", "type": "Development", "status": "Completed", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/MHUB-652", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-262", "title": "Deploy Stage", "project": "Sally", "type": "CI/CD", "status": "Planned", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-262", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-259", "title": "Add the message of ASK Dell response to the Filter 3 declined cases", "project": "Sally", "type": "Development", "status": "In Progress", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-259", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-256", "title": "Setup dev branch deployment for Sally", "project": "Sally", "type": "CI/CD", "status": "Planned", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-256", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-248", "title": "user change to ODW FRAI agent", "project": "Sally", "type": "Development", "status": "In Progress", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-248", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-240", "title": "A2A connection to ODW Assistant (Askdell.com)", "project": "Sally", "type": "Development", "status": "Testing", "storyPoints": 3, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-240", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-238", "title": "prompt update for resolved status workflow (confirmation by email reaction)", "project": "Sally", "type": "Bug / Defect", "status": "Testing", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-238", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-236", "title": "Optimize Jet API Calls in AI Advisor Using Salesforce Composite API", "project": "Sally", "type": "Development", "status": "In Progress", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-236", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-230", "title": "Reduced latency and optimize flow for summary generation", "project": "Sally", "type": "Development", "status": "In Progress", "storyPoints": 2, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-230", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." },
+    { "id": "DTXSEA-193", "title": "Resolved workflow fine tuning: thank you + follow up attachment email", "project": "Sally", "type": "Bug / Defect", "status": "Completed", "storyPoints": 1, "storyPointsIsEstimate": true, "date": "[Add date]", "jiraUrl": "https://jira.example.com/browse/DTXSEA-193", "mrUrl": "", "notes": "Sample status and points — replace with confirmed details." }
+  ],
+  "timeline": [
+    { "period": "July 6, 2026", "phase": "Begin", "title": "Internship begins", "description": "Joined DIX as an Undergraduate Intern.", "labels": ["Onboarding"] },
+    { "period": "Weeks 1–2", "phase": "Learn", "title": "Onboarding & hands-on learning", "description": "Focused on C#, .NET, mHub, Service Tag Validator, existing codebases and project workflows.", "labels": ["Learning", "C#/.NET"] },
+    { "period": "Month 1", "phase": "Build · Test", "title": "Feature development across Service Tag Validator, mHub & Sally", "description": "Built Service Tag Validator UI and deletion workflow pieces; worked on mHub pipelines and testing; began AI Advisor response-time experiments.", "labels": ["Development", "Testing", "CI/CD", "AI/Agent"] },
+    { "period": "Month 2", "phase": "Explore · Support", "title": "FRAT/PAM workflow and continued project contribution", "description": "Focus shifted toward understanding the FRAT/PAM Agent, alongside development, testing, bug fixing and application support.", "labels": ["AI/Agent", "Testing", "Bug fixing", "Support"] },
+    { "period": "Current · Month 3", "phase": "Expand", "title": "Current focus", "description": "[Add current focus and recent progress]", "labels": ["Current"] }
+  ],
+  "updates": [
+    { "id": "update-sep", "date": "September 2026", "period": "Current update", "summary": "[Add the latest manager-ready summary of what changed.]", "delivered": ["[Add delivered work]"], "workedOn": ["FRAT / PAM Agent", "Service Tag Validator", "CI/CD"], "learned": ["[Add recent learning]"], "challenges": ["[Add challenges or remove this item]"], "next": ["[Add next priorities]"], "isLatest": true },
+    { "id": "update-aug", "date": "August 2026", "period": "Month 2", "summary": "Focus shifted toward understanding the FRAT/PAM Agent, with continued development, testing, bug fixing and application support.", "delivered": ["[Add confirmed August deliverables]"], "workedOn": ["FRAT / PAM Agent workflow", "Development and testing", "Application support"], "learned": ["More context on the FRAT/PAM workflow and project operations."], "challenges": ["[Add challenges or remove this item]"], "next": ["Continue workflow development and testing. [Edit]"], "isLatest": false },
+    { "id": "update-jul", "date": "July 2026", "period": "Month 1", "summary": "Built hands-on familiarity with the DIX project environment while contributing across Service Tag Validator, mHub and AI Advisor work.", "delivered": ["Lender Management, User Management and Service Tag Deletion pages", "End-to-end ServiceTag deletion API and backup/history logic", "Test cases for Google UCP and existing lenders", "Google UCP backend CI/CD pipeline support"], "workedOn": ["C#/.NET and Angular codebases", "CI/CD pipelines", "AI Advisor response-time experiments"], "learned": ["How the existing mHub and Service Tag Validator applications are organized", "How pooling and threading can be explored in an API-driven workflow"], "challenges": ["[Add challenges or remove this item]"], "next": ["Continue development, testing and broader workflow understanding. [Edit]"], "isLatest": false }
+  ],
+  "learnings": [
+    { "id": "dotnet", "topic": "C# / .NET", "what": "Understanding and working with existing C#/.NET applications.", "applied": "mHub and Service Tag Validator development work.", "confidence": "Building hands-on context", "period": "Weeks 1–present" },
+    { "id": "angular", "topic": "Angular", "what": "Working with frontend pages and UI workflows.", "applied": "Lender Management, User Management and Service Tag Validator workflows.", "confidence": "Applied in project work", "period": "Month 1" },
+    { "id": "python", "topic": "Python", "what": "Working within Sally's Python-based workflows.", "applied": "AI Advisor and Sally agent workflows.", "confidence": "Developing context", "period": "Month 1–present" },
+    { "id": "cicd", "topic": "CI/CD", "what": "Understanding pipeline creation, deployment and troubleshooting.", "applied": "Google UCP backend and ServiceNow-related CI/CD work.", "confidence": "Applied in project work", "period": "Month 1–present" },
+    { "id": "testing", "topic": "Testing", "what": "Writing and improving automated tests and supporting code quality.", "applied": "Google UCP and existing lender test cases.", "confidence": "Applied in project work", "period": "Month 1–present" },
+    { "id": "agents", "topic": "AI Agents", "what": "Understanding AI Advisor and FRAT/PAM Agent workflows.", "applied": "Sally workstreams.", "confidence": "Developing context", "period": "Month 1–present" },
+    { "id": "support", "topic": "Debugging & Support", "what": "Investigating defects, testing fixes and supporting application issues.", "applied": "Service Tag Validator, mHub and Sally work.", "confidence": "Applied in project work", "period": "Month 1–present" }
+  ],
+  "artifacts": [
+    { "id": "month-1-demo", "title": "Month 1 Demo", "type": "Demo video", "description": "[Add a short description of the demo.]", "url": "", "placeholder": "[ADD DEMO VIDEO URL]" }
+  ],
+  "skills": ["C#", ".NET", "Angular", "Python", "CI/CD", "Jira", "Git", "AI Agents", "Testing"]
+}
