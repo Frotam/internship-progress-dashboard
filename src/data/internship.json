@@ -12,7 +12,13 @@
     "eyebrow": "Internship progress",
     "atAGlance": "During my first 2.5 months, I have worked across three projects spanning C#/.NET, Angular, Python and CI/CD. My work has included frontend and backend development, testing, production bug fixes, CI/CD activities and early hands-on work with AI-agent workflows.",
     "assignedItemsLabel": "26 Jira Items",
-    "storyPointsNote": "Story points are currently estimated and can be updated."
+    "storyPointsNote": "Story points are currently estimated and can be updated.",
+    "metrics": {
+      "completed": { "value": 12, "confidence": "estimated", "changeSinceLastUpdate": 3},
+      "inProgress": { "value": null, "confidence": "unknown", "changeSinceLastUpdate": null },
+      "total": { "value": 2, "confidence": "estimated", "changeSinceLastUpdate": 3 },
+      "mergeRequests": { "value": null, "confidence": "unknown", "changeSinceLastUpdate": null }
+    }
   },
   "currentFocus": [
     { "projectId": "service-tag-validator", "title": "Service Tag Validator", "detail": "Development · Bug fixes · Testing", "tags": ["ServiceTag workflows", "Application support"] },
@@ -28,12 +34,12 @@
       "technologies": ["C#", ".NET", "Angular"],
       "description": "Worked on the Service Tag Validator application across frontend, backend, testing, bug fixing and related development work.",
       "contributions": ["Lender Management Page", "User Management Page", "Service Tag Deletion Page", "End-to-end ServiceTag deletion API", "ServiceTag backup/history logic", "UAT support, bug fixes and application support"],
-      "currentStatus": "Development, testing and support activity. [Edit with current details]",
+      "currentStatus": "Sample: Active development, testing, and application support. Replace with the confirmed current status.",
       "keyLearnings": ["Working within an existing C#/.NET and Angular codebase", "Connecting UI workflows to backend and record-history logic"],
       "artifacts": [],
       "jiraLinks": [],
       "mrLinks": [],
-      "notes": "[Add project notes]"
+      "notes": "Sample: Add confirmed implementation notes, review context, or evidence references here."
     },
     {
       "id": "mhub",
@@ -43,12 +49,12 @@
       "technologies": ["C#", ".NET", "Angular", "CI/CD"],
       "description": "Worked across development, testing and CI/CD activities within the mHub ecosystem.",
       "contributions": ["CI/CD pipeline setup and deployment-related activities", "Google UCP backend pipeline work", "ServiceNow-related CI/CD work", "Pipeline issue investigation", "Test cases for Google UCP and existing lenders", "Contributed to test coverage improvements, with coverage reaching approximately 79% from 65%."],
-      "currentStatus": "CI/CD, development, testing and application support. [Edit with current details]",
+      "currentStatus": "Sample: CI/CD, development, testing, and application support. Replace with the confirmed current status.",
       "keyLearnings": ["How CI/CD workflows support delivery", "Testing existing application behavior and code quality"],
       "artifacts": [],
       "jiraLinks": [],
       "mrLinks": [],
-      "notes": "[Add project notes]"
+      "notes": "Sample: Add confirmed pipeline, testing, or deployment notes here."
     },
     {
       "id": "sally",
@@ -58,17 +64,17 @@
       "technologies": ["Python", "AI Agents", "APIs"],
       "description": "Working within Sally's Python-based AI-agent workflows.",
       "contributions": ["AI Advisor response-time experiments using pooling, threading and API optimization", "FRAT / PAM Agent workflow understanding, development, testing, bug fixing and support", "Other Sally workflows as they become known"],
-      "currentStatus": "AI Advisor and FRAT / PAM Agent workflows. [Edit with current details]",
+      "currentStatus": "Sample: AI Advisor and FRAT / PAM Agent workflow work. Replace with the confirmed current status.",
       "keyLearnings": ["How agent workflows are composed and tested", "Exploring performance considerations in API-driven flows"],
       "artifacts": [],
       "jiraLinks": [],
       "mrLinks": [],
-      "notes": "[Add project notes]",
+      "notes": "Sample: Add confirmed workflow, performance, or support notes here.",
       "workstreams": [
         { "name": "AI Advisor", "description": "Worked on response-time optimization through pooling, threading techniques and API optimization." },
         { "name": "FRAT / PAM Agent", "description": "Spent time understanding the FRAT/PAM Agent workflow, followed by development, testing, bug fixing and application support." },
-        { "name": "Other Workflows", "description": "[Add other Sally workflow details]" },
-        { "name": "Future / Upcoming", "description": "[Add planned workflow details]" }
+        { "name": "Other Workflows", "description": "Sample: Add other Sally workflow details when confirmed." },
+        { "name": "Future / Upcoming", "description": "Sample: Add planned workflow details when confirmed." }
       ]
     }
   ],
@@ -105,12 +111,12 @@
     { "period": "Weeks 1–2", "phase": "Learn", "title": "Onboarding & hands-on learning", "description": "Focused on C#, .NET, mHub, Service Tag Validator, existing codebases and project workflows.", "labels": ["Learning", "C#/.NET"] },
     { "period": "Month 1", "phase": "Build · Test", "title": "Feature development across Service Tag Validator, mHub & Sally", "description": "Built Service Tag Validator UI and deletion workflow pieces; worked on mHub pipelines and testing; began AI Advisor response-time experiments.", "labels": ["Development", "Testing", "CI/CD", "AI/Agent"] },
     { "period": "Month 2", "phase": "Explore · Support", "title": "FRAT/PAM workflow and continued project contribution", "description": "Focus shifted toward understanding the FRAT/PAM Agent, alongside development, testing, bug fixing and application support.", "labels": ["AI/Agent", "Testing", "Bug fixing", "Support"] },
-    { "period": "Current · Month 3", "phase": "Expand", "title": "Current focus", "description": "[Add current focus and recent progress]", "labels": ["Current"] }
+    { "period": "Current · Month 3", "phase": "Expand", "title": "Current focus", "description": "Sample: Continue development, testing, and support across the active project areas. Replace with confirmed current work.", "labels": ["Current", "Sample"] }
   ],
   "updates": [
-    { "id": "update-sep", "date": "September 2026", "period": "Current update", "summary": "[Add the latest manager-ready summary of what changed.]", "delivered": ["[Add delivered work]"], "workedOn": ["FRAT / PAM Agent", "Service Tag Validator", "CI/CD"], "learned": ["[Add recent learning]"], "challenges": ["[Add challenges or remove this item]"], "next": ["[Add next priorities]"], "isLatest": true },
-    { "id": "update-aug", "date": "August 2026", "period": "Month 2", "summary": "Focus shifted toward understanding the FRAT/PAM Agent, with continued development, testing, bug fixing and application support.", "delivered": ["[Add confirmed August deliverables]"], "workedOn": ["FRAT / PAM Agent workflow", "Development and testing", "Application support"], "learned": ["More context on the FRAT/PAM workflow and project operations."], "challenges": ["[Add challenges or remove this item]"], "next": ["Continue workflow development and testing. [Edit]"], "isLatest": false },
-    { "id": "update-jul", "date": "July 2026", "period": "Month 1", "summary": "Built hands-on familiarity with the DIX project environment while contributing across Service Tag Validator, mHub and AI Advisor work.", "delivered": ["Lender Management, User Management and Service Tag Deletion pages", "End-to-end ServiceTag deletion API and backup/history logic", "Test cases for Google UCP and existing lenders", "Google UCP backend CI/CD pipeline support"], "workedOn": ["C#/.NET and Angular codebases", "CI/CD pipelines", "AI Advisor response-time experiments"], "learned": ["How the existing mHub and Service Tag Validator applications are organized", "How pooling and threading can be explored in an API-driven workflow"], "challenges": ["[Add challenges or remove this item]"], "next": ["Continue development, testing and broader workflow understanding. [Edit]"], "isLatest": false }
+    { "id": "update-sep", "date": "September 2026", "period": "Current update", "summary": "Sample: Continued work across FRAT / PAM Agent workflows, Service Tag Validator support, and CI/CD follow-up. Replace this summary with the confirmed latest update.", "delivered": ["Sample: Confirmed deliverable not yet recorded."], "workedOn": ["FRAT / PAM Agent", "Service Tag Validator", "CI/CD"], "learned": ["Sample: Add the latest confirmed engineering learning."], "challenges": ["Sample: Add unresolved work or remove this item when confirmed."], "next": ["Sample: Add the next confirmed priority."], "isLatest": true },
+    { "id": "update-aug", "date": "August 2026", "period": "Month 2", "summary": "Sample two-month update: responsibility shifted from feature delivery toward AI-agent workflow understanding, testing, debugging, and application support.", "delivered": ["Sample: FRAT / PAM Agent workflow changes moved through development and testing.", "Sample: Support and debugging work was added alongside feature work."], "workedOn": ["FRAT / PAM Agent workflow", "AI-agent development and testing", "Bug fixing and application support"], "learned": ["Sample: How the FRAT / PAM workflow is composed and where agent behavior is tested.", "Sample: How debugging and support work changes the way a workflow is understood."], "challenges": ["Sample: Confirm which August work items were fully completed.", "Sample: Add any unresolved workflow or deployment issues."], "next": ["Sample: Confirm the next FRAT / PAM development and testing priorities."], "isLatest": false },
+    { "id": "update-jul", "date": "July 2026", "period": "Month 1", "summary": "Sample two-month baseline: moved from onboarding into hands-on feature, backend, testing, CI/CD, and AI Advisor performance work.", "delivered": ["Sample: Lender Management, User Management, and Service Tag Deletion pages.", "Sample: End-to-end ServiceTag deletion API and backup/history logic.", "Sample: Test cases for Google UCP and existing lenders.", "Sample: Google UCP backend CI/CD pipeline support."], "workedOn": ["C#/.NET and Angular codebases", "CI/CD pipelines and deployment work", "AI Advisor response-time experiments"], "learned": ["Sample: How the existing mHub and Service Tag Validator applications are organized.", "Sample: How pooling and threading can be explored in an API-driven workflow."], "challenges": ["Sample: Confirm the exact July completion and status details."], "next": ["Sample: Continue development, testing, and broader workflow understanding."], "isLatest": false }
   ],
   "learnings": [
     { "id": "dotnet", "topic": "C# / .NET", "what": "Understanding and working with existing C#/.NET applications.", "applied": "mHub and Service Tag Validator development work.", "confidence": "Building hands-on context", "period": "Weeks 1–present" },
@@ -122,7 +128,7 @@
     { "id": "support", "topic": "Debugging & Support", "what": "Investigating defects, testing fixes and supporting application issues.", "applied": "Service Tag Validator, mHub and Sally work.", "confidence": "Applied in project work", "period": "Month 1–present" }
   ],
   "artifacts": [
-    { "id": "month-1-demo", "title": "Month 1 Demo", "type": "Demo video", "description": "[Add a short description of the demo.]", "url": "", "placeholder": "[ADD DEMO VIDEO URL]" }
+    { "id": "month-1-demo", "title": "Month 1 Demo", "type": "Demo video", "description": "Sample: Add a short description of the first-month demo when the internal-safe video link is available.", "url": "", "placeholder": "Internal-safe link not yet added" }
   ],
   "skills": ["C#", ".NET", "Angular", "Python", "CI/CD", "Jira", "Git", "AI Agents", "Testing"]
 }
